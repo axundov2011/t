@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --white: #fff;
+    --openF: 'Open Sans', sans-serif;
+    --btn: #fd4f32;
+}
+
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+/* header css start */
+
+header{
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    
+}
+
+nav i{
+    color: var(--white);
+    font-size: 24px;
+}
+
+header h1{
+font: 300px 52px var(--openF);
+letter-spacing: 2px;
+color: #ffffff;
+text-align: center;
+margin-top: 210px;
+}
+
+header input{
+font: 400 16px var(--openF);
+letter-spacing: 1px;
+color: #8b8b8b;
+border: none;
+outline: none;
+width: 325px;
+padding: 13px 0 13px 15px;
+}
+
+header button{
+    font: 700 16px var(--openF);
+letter-spacing: 1px;
+color: #ffffff;
+background-color: var(--btn);
+border: none;
+outline: none;
+padding: 13px 50px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 200px;
+}
+
+/* content css start */
+
+
+#amazing{
+    background-color: #ffffff;
+    padding-top: 60px;
+    
+}
+#amazing h2{
+    font: 400 16px var(--openF);
+    letter-spacing: 0px;
+    color: #323232;
+    padding-top: 16px;
+    margin-bottom: 15px;
+}
+
+#amazing p{
+    font: 400 16px var(--openF);
+    letter-spacing: 0px;
+    color:#050404;
+    padding-bottom:  18px;
+}
+
+.countries{
+    background-color: #ffffff;
+}
+
+.countries img{
+width: 238;
+height: 170px;
+}
+
+.countries p{font: 400 13px var(--openF);
+    width: 230px;
+    line-height: 19px;
+    color: #696969;
+    padding: 0 0 18px 20px;
+}
+
+
+.countries{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+#metn{
+    background-color: #ffffff;
+}
+
+#strike h1{
+    font: 300 52px var(--openF);
+    letter-spacing: 2px;
+    color: #323232;
+    padding-top: 79px;
+}
+
+#metn{
+    display: flex;
+    justify-content: space-between;
+}
+
+#metn div{
+    margin-right: 50px;
+}
+
+#kutu input{
+    ont: 400 16px var(--openF);
+letter-spacing: 1px;
+color: #8b8b8b;
+border: none;
+outline: none;
+width: 325px;
+padding: 13px 0 13px 15px;
+background-color: #eeeeee;
+}
+
+#kutu button{
+    font: 700 16px var(--openF);
+letter-spacing: 1px;
+color: #ffffff;
+background-color: var(--btn);
+border: none;
+outline: none;
+padding: 13px 50px;
+}
